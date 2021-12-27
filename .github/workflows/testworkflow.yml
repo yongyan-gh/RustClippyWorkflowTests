@@ -1,8 +1,10 @@
 on:
-  workflow_run:
-    workflows: ["main"]
-    branches: [main]
-    types: [completed]
+  push:
+    branches: [ main ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ main ]
+  workflow_dispatch:
 
 name: sarif
 
