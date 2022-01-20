@@ -6,6 +6,12 @@ fn main() {
     {
         println!("should be wrong");
     }
+    
+    let x :f32 = 1.0;
+    if x == f32::NAN 
+    {
+        println!("do not compare to NaN");
+    }
 
     let stdout = stdout();
     let message = String::from("Hello fellow Rustaceans!");
