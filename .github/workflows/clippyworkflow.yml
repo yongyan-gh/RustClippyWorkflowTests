@@ -6,7 +6,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-name: sarif
+name: rust-clippy-analyze
 
 jobs:
   rust-clippy-analyze:
