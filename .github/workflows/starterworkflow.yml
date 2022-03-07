@@ -1,4 +1,4 @@
-name: rust-clippy analyze
+name: rust-clippy starter workflow
 
 on:
   workflow_dispatch:
@@ -10,7 +10,6 @@ jobs:
     permissions:
       actions: read
       contents: read
-      security-events: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
