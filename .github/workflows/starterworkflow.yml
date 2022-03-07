@@ -2,8 +2,6 @@ name: rust-clippy analyze
 
 on:
   workflow_dispatch:
-permissions:
-  contents: read
 
 jobs:
   rust-clippy-analyze:
